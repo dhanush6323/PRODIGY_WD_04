@@ -1,0 +1,85 @@
+body {
+    background-image: url(image/background.png);
+    background-repeat:no-repeat;
+    background-size: 1600px 800px;
+}
+.heading{
+    font-size: 45px;
+}
+.container {
+
+    max-width: 600px;
+    margin: 80px auto;
+    background-color:#d2f7ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0d33b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#90a3e3;
+}
+
+#weatherInfo {
+    text-align: center;
+}
+
+
+
+
+
+
+.weather-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather-image {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.weather-details {
+    font-size: 20px;
+    padding: 10px;
+}
+
+@media (max-width:450px){
+    .container{
+        margin: 0 20px ;
+    }
+    .location button{
+        margin-top: 10px;
+    }
+    .location input{
+        width: 80%;
+    }
+}
